@@ -1,12 +1,27 @@
+@font-face {
+  font-family: "NexonFont";
+  src: url("../font/NEXONLv1GothicRegular.ttf");
+}
+
+@font-face {
+  font-family: "SsurroundFont";
+  src: url("../font/Cafe24SsurroundAir.ttf");
+}
+
+@font-face {
+  font-family: "SBFontBold";
+  src: url("../font/SBFontBold.ttf");
+}
+
 html,
 body {
+  font-family: SsurroundFont;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
+  font-family: SBFontBold;
   color: inherit;
   text-decoration: none;
 }
