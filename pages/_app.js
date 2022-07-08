@@ -24,4 +24,6 @@ export default function App({ Component, pageProps }) {
 export default function App({ Component, pageProps }) {
   return (<Component {...pageProps} />);
 }
+
+면접 멘탈 다털림 ㅠㅠㅠㅠ 하 킹받아
 */
